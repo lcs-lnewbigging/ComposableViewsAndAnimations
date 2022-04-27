@@ -97,6 +97,19 @@ struct ContentView: View {
 
                     }
 
+                    NavigationLink(destination: UsefulAnimationView()) {
+                        
+                        SimpleListItemView(title: "My useful animation",
+                                           caption: "Make your own reusable view using animations")
+
+                    }
+                
+                
+                
+                
+                
+                
+                
                 }
                 
             }
